@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <ul>
+        <li>
+          <a class="logo" href="/index.html"
+            ><img src="./img/Logo.svg" alt="logo"
+          /></a>
+        </li>
+        <li><a class="logo" href="/index.html">ENCRIPTADOR</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box-1 text">
+          <textarea
+            name="texto"
+            class="texto"
+            id="texto"
+            cols="30"
+            rows="10"
+            placeholder="Ingresa el texto aquí"
+          ></textarea>
+        </div>
+        <div class="box-1 opciones">
+          <button
+            class="btn"
+            type="button"
+            value="encriptar"
+            onclick="encriptar()"
+          >ENCRIPTAR</button>
+          <button
+            class="btn"
+            type="button"
+            value="desencriptar"
+            onclick="desencriptar()"
+          >DESENCRIPTAR</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box-2 text-list">
+          <p id="results"></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot">
+        <p>2024 Jose Angel Mateos Cortés</p>
+      </div>
+      <div class="foot">
+        <a href="https://twitter.com/janigek22">Twitter</a>
+        <a href="https://github.com/JANIGEEK">Linkedin</a>
+        <a href="https://www.linkedin.com/in/jose-angel-mateos-cortes/">Github</a>
+      </div>
+    </footer>
+  </body>
+</html>
